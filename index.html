@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTAFOLIO</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/F1.css">
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/F1.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.min.css">
+
+
+</head>
+<body>
+    <!--NAVIGATION BAR-->
+    <nav class="navbar navbar-expand-lg navbar navbar-dark" style="background-color: #971616;">
+  <div class="container-fluid">
+    <a class="navbar-brand f" href="#">MENÚ</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav me-auto mb-2 mb-lg-0"><div class="me-auto"></div>
+        
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle letra" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    HOME</a>
+  <ul class="dropdown-menu dropdown-menu-dark">
+   <li><a class="dropdown-item fn" href="#valores" onclick="document.querySelector('#valores').scrollIntoView();">VALORES</a></li>
+   <li><a class="dropdown-item fn" href="#indice" onclick="document.querySelector('#indice').scrollIntoView();">CONTENIDOS</a></li>
+</ul>
+</li>
+      
+        <li class="nav-item">
+              <a class="nav-link letra" href="MIS PROYECTOS.html">MIS PROYECTOS</a>
+        </li>
+
+        <li class="nav-item">
+              <a class="nav-link letra" href="SOBRE MÍ.html">SOBRE MÍ</a>
+        </li>
+</ul>
+      <!--Botón,modo-->
+<button style="background-color: #000000;"class="btn-mode-toggle btn btn-outline-dark b text-center"  onclick="cambiarModo()">MODE</button>
+
+    </div>
+  </div>
+</nav>
+
+
+ <!--CAROUSEL-->
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <a href="https://soundcloud.com/yurameki/yuki-onna-avelcain" target="_blank">
+      <img src="IMAGES/Vinyl,banner,final.png" class="d-block w-100" alt="LOADING..."></a>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <a href="https://noauthority-shop.com/" target="_blank"><img src="IMAGES/Mesa de trabajo 3.jpg" class="d-block w-100" alt="LOADING..."></a>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div><br><br><br>
+
+  <!--TEXT-->
+<div class="container-fluid">  
+  <div class="row">
+    <div class="text-center">
+      <h1 class="display-1 fuente">Bienvenid@ a mi portafolio.</h1><br><br>
+      <p class="font">AQUÍ PODRÁS ENCONTRAR ALGUNOS DE MIS TRABAJOS.</p>
+    </div>
+  </div><br><br><br>
+
+  <div id="valores">
+  <div class="row">
+    <div class="col-12 col-md-6 col-lg-3 text-center">
+      <img class="mx-auto-d-block" src="IMAGES/1.png" alt="Not available" width="100px"><br><br><br>
+      <h2 class="f"><b>MISIÓN</b></h2><br>
+      <p class="fn">Crear soluciones visuales y de diseño que desafíen lo convencional;que hagan al consumidor cuestionarse las cosas y expandir su horizonte hacia nuevas perspectivas.</p>
+    </div>
+<div class="col-12 col-md-6 col-lg-3 text-center">
+   <img class="mx-auto-d-block" src="IMAGES/4.png" alt="Not available" width="100px"><br><br><br>
+      <h2 class="f"><b>VISIÓN</b></h2><br>
+      <p class="fn">Aspiro a ser un referente en el ámbito del diseño y la comunicación visual, reconocido por la capacidad de integrar metodologías de diseño con impacto social y una estética auténtica.Además, con mis diseños busco contribuir a crear consciencia social y crear un pensamiento crítico en los consumidores.</p>
+    </div>
+    <div class="col-12 col-md-6 col-lg-3 text-center">
+       <img class="mx-auto-d-block" src="IMAGES/3.png" alt="Not available" width="100px"><br><br><br>
+      <h2 class="f"><b>VALORES</b></h2><br>
+      <ul class="fn" style="padding: 0; list-style-position: inside;">
+          <li> Honestidad: Actuar con transparencia, cumplir los compromisos y decir la verdad incluso cuando se cometen errores.</li>
+          <li>Responsabilidad social y sostenibilidad: Considerar el impacto de la actividad empresarial en el medio ambiente y en la sociedad</li>
+        </ul>
+    </div>
+    <div class="col-12 col-md-6 col-lg-3 text-center">
+       <img class="mx-auto-d-block" src="IMAGES/2.png" alt="Not available" width="100px"><br><br><br>
+      <h2 class="f"><b>CLIENTES</b></h2><br>
+      <p class="fn">Hasta la fecha he trabajado con clientes como:</p>
+        <ul class="fn" style="padding: 0; list-style-position: inside;">
+          <li>Madmans Esprit</li>
+          <li>no AUTHORITY</li>
+          <li>AXAY Industrial</li>
+          <li>AVEL CAIN</li>
+        </ul>
+    </div>
+  </div></div><br><br><br><br>
+
+<div id="indice">
+  <div class="text-center">
+  <h2 class="índice text-center"><b>ÍNDICE DE CONTENIDOS</b></h2><br>
+  <p class="fn">PARA VISUALIZAR LOS CONTENIDOS AQUÍ LISTADOS, DIRÍGETE A LA PESTAÑA DE <b class="letra">"MIS PROYECTOS"</b>.</p>
+
+  <div style="display: flex; flex-direction: column; align-items: center; gap: 15px; margin-top: 20px;">
+    
+    <button style="background-color: #971616; color: white; padding: 15px 40px; font-size: 18px; border: none; border-radius: 5px; cursor: pointer; width: 250px;" class="btn-mode-toggle btn btn-outline-dark b text-center">AUDIOVISUALES</button>
+    
+    <button style="background-color: #971616; color: white; padding: 15px 40px; font-size: 18px; border: none; border-radius: 5px; cursor: pointer; width: 250px;" class="btn-mode-toggle btn btn-outline-dark b text-center">FOTOGRAFÍA</button>
+    
+    <button style="background-color: #971616; color: white; padding: 15px 40px; font-size: 18px; border: none; border-radius: 5px; cursor: pointer; width: 250px;" class="btn-mode-toggle btn btn-outline-dark b text-center">MEDIOS FÍSICOS</button><br><br><br>
+
+  </div>
+</div>
+</div>
+</div>
+</div>
+    
+<!-- FOOTER -->
+
+<footer style="background-color: #971616;" class="text-white text-center py-4">
+  <div class="container">
+    <p class="mb-2 b ">REDES SOCIALES</p>
+   
+    <div class="d-flex justify-content-center gap-3">
+      <a href="#" target="_blank" class="text-white fs-4">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="#" target="_blank" class="text-white fs-4">
+        <i class="bi bi-twitter-x"></i>
+      </a>
+      <a href="#" target="_blank" class="text-white fs-4">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="#" target="_blank" class="text-white fs-4">
+        <i class="bi bi-youtube"></i>
+      </a>
+      <a href="https://wa.me/#&quot; target="_blank" class="text-white fs-4">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+    </div>
+
+    <p class="mt-3 mb-0">&copy; 2026 SENYT Co. Todos los derechos reservados.</p>
+  </div>
+</footer>
+</body>
+</html>

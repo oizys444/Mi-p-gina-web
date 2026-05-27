@@ -1,0 +1,85 @@
+:root { --bg-body: #ffffff; --text-body: #000000; --nav-bg: #971616; }
+        body.dark-mode { --bg-body: #000000; --text-body: #ffffff; --nav-bg: #4e0b0b; }
+        body { background-color: var(--bg-body); color: var(--text-body); transition: 0.3s; }
+        .custom-nav { background-color: var(--nav-bg) !important; }
+        .btn-mode-toggle { border: 1px solid white; color: white; background: none; margin: 0 10px; }
+
+ @font-face {
+    font-family:'Tan Grandeur' ;
+    src: url('../FONTS/TANGRANDEUR.otf');
+}
+.fuente{
+    font-family: Tan Grandeur;
+    font-size: 76px;
+}
+
+@font-face {
+    font-family:'Tan Grandeur' ;
+    src: url('../FONTS/TANGRANDEUR.otf');
+}
+.f{
+    font-family: Tan Grandeur;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family:'Tan Grandeur' ;
+    src: url('../FONTS/TANGRANDEUR.otf');
+}
+.índice{
+    font-family: Tan Grandeur;
+    font-size: 30px;
+}
+
+
+ @font-face {
+    font-family:'Tan Garland' ;
+    src: url('../FONTS/TAN-Garland-Regular.otf');
+}
+.font{
+    font-family: Tan Garland;
+    font-size: 20 px;
+}
+
+ @font-face {
+    font-family:'Tan Garland' ;
+    src: url('../FONTS/TAN-Garland-Regular.otf');
+}
+.fn{
+    font-family: Tan Garland;
+    font-size: 10 px;
+}
+ @font-face {
+    font-family:'Tan Garland' ;
+    src: url('../FONTS/TAN-Garland-Regular.otf');
+}
+.ft{
+    font-family: Tan Garland;
+    font-size: 3 px;
+}
+ @font-face {
+    font-family:'Tan Grandeur' ;
+    src: url('../FONTS/TANGRANDEUR.otf');
+}
+.letra{
+    font-family: Tan Grandeur;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family:'Tan Garland' ;
+    src: url('../FONTS/TAN-Garland-Regular.otf');
+}
+.b{
+    font-family: Tan Garland;
+    font-size: 20 px;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 80px; 
+}

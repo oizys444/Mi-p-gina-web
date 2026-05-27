@@ -1,0 +1,27 @@
+:root {
+  --color-fondo: #ffffff;
+  --color-texto: #333333;
+  --color-acento: #971616;
+}
+
+body.dark-theme {
+  --color-fondo: #1a1a1a;
+  --color-texto: #f5f5f5;
+  --color-acento: #971616; 
+}
+
+body {
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  transition: background-color 0.3s, color 0.3s; 
+  font-family: sans-serif;
+}
+
+button {
+  background-color: var(--color-acento);
+  color: white; 
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px; 
+}
